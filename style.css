@@ -215,3 +215,11 @@ button#checkout{
 	block-size: 102px;
 	margin-top: -99px;
 }
+button#deliver{
+	color: azure;
+	margin-left: 4in;
+	block-size: 71px;
+	margin-top: -52px;
+	width: 20vw;
+}
+
