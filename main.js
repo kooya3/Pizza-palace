@@ -98,4 +98,5 @@ checkout.addEventListener('click', function() {
         <p>Enjoy your meal. Your order total is Ksh.${totalPrice}</p>
         
     })
+  })
 })
