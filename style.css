@@ -116,7 +116,7 @@ img{
 	height: 500px;
 	align-items: flex-end;
 	margin-top: -6in;
-	margin-left: 13.6in;
+	margin-left: 11.6in;
 	z-index: 2;
 	border-radius: 9%;
 	background-color: gray;
@@ -199,4 +199,19 @@ h3{
 	color: whitesmoke;
 	height: 50vh;
 	width: 80vw;
+}
+button#orderMoreBtn{
+	margin-left: 1in;
+	block-size: 102px;
+	margin-top: -1px;
+}
+button#placeOrder{
+	margin-left: 222px;
+	block-size: 102px;
+	margin-bottom: -96px;
+}
+button#checkout{
+	margin-left: 4in;
+	block-size: 102px;
+	margin-top: -99px;
 }
