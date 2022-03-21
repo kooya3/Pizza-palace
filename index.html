@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link src="/home/elyees/Downloads/bootstrap-5.1.3-dist/css">
+    <script src="/home/elyees/Downloads/bootstrap-5.1.3-dist/js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <head>
+    <div class="navbar">
+        <title class="title">Pizza-palace</title>
+        <nav>
+        <ul id="nav">
+            <li id="nav-home"><a href="#">Home</a></li>
+            <li id="nav-about"><a href="#"><strike>About-us</strike></a></li>
+            <li id="nav-offers"><a href="#">Offers</a></li>
+            <li id="nav-news"><a href="#">News</a></li>
+            <li id="nav-reviews"><a href="#">Reviews</a></li>
+            <li id="nav-contact"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</div>  
+</head>
+<body>
+    <div class="heading-intro">
+        <br>
+        <br>
+        <br>
+        <div class="h1">
+            <h1>
+                Get your assortment of Pizza’s in an instant
+                <img src="images-project/pizza.jpeg" alt="pizza">
+
+            </h1>
+            <div class="h2"><h2>with numerous toppings as well as the crust you like!
+                <br>fast delivery capabilities for residents in nairobi. <br> *Karibu Pizza-palace*.</h2></div>
+        <button class="menu" onclick="">
+                <strong>
+                    menu
+                </strong>
+        </button>
+            </div>
+    </div>
+</div>
+
+<div>
+    <h5>Pizza size</h5>
+    <select class="select" id="pizzaSize">
+        <option value="Small" id="small">Small</option>
+        <option value="Medium" id="medium">Medium</option>
+        <option value="Large" id="large">Large</option>
+    </select>
+</div>
+<div>
+    <h5>Topping</h5>
+    <select class="select" id="pizzaTopping">
+       <option value="Cheese" id="cheese">Cheese</option>
+       <option value="Olives" id="olives">Olives</option>
+       <option value="Peperoni" id="peperoni">Peperoni</option>
+    </select>
+</div>
+<div>
+    <h5>Pizza base</h5>
+    <select class="select" id="pizzaCrust">
+       <option value="Crispy" id="crispy">Crispy</option>
+       <option value="Stuffed" id="stuffed">Stuffed</option>
+       <option value="Glutten Free" id="glutten">Glutten Free</option>
+    </select>
+</div>
+<br>
+<button type="submit" id="placeOrder">Place Order</button>
+<button type="submit" id="orderMoreBtn">Add Order</button>
+<button type="submit" id="checkout">Checkout</button>
+
+<div id="orderDetails">
+    <h3>Order Summary</h3>
+    <table style="border: solid" id="orderSummary">
+        <th>Order</th>
+        <th>Size</th>
+        <th>Topping</th>
+        <th>Crust</th>
+        <th>Price</th>
+    </table>
+    <div id="total"></div>
+    <div id="locationInfo">
+        <p>Where do you live</p>
+        <input type="text" id="location">
+        <button type="submit" id="deliver">Deliver</button>
+    </div>
+</div>
+<script src="main.js"!important></script>
+</body>
+</html>

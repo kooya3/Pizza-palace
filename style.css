@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flavors&family=Fugaz+One&display=swap');
+*{
+	box-sizing: border-box;
+    background-color: #25212B;
+	margin: 0;
+	padding: 0;
+	display: flow-root;
+}
+body{
+	height: 1080px;
+	
+}
+.title{
+	font-family: 'Fugaz One', cursive;
+	width: 40vw;
+    font-size: 75px;
+    font-weight: 700;
+    color: aliceblue;
+	align-items: flex-start;
+	justify-content: flex-start;
+	float: left;
+	cursor: smooth;
+}
+.navbar .title{
+	float: none;
+	justify-content: center;
+
+}
+.navbar #nav{
+	position: top;
+}
+
+.navbar, ul#nav{
+	float: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #FE881A;
+	list-style: none;
+
+}
+#nav {
+	margin:0;
+	padding:0;
+    justify-content: flex-end;
+}
+
+#nav li {
+	display:inline;
+    display: flex-end;
+	padding:0;
+	margin:0;
+}
+#nav li:first-child a {
+	border-left:1px solid #343524;
+}
+#nav a:link,
+#nav a:visited {
+	color:#FE881A;
+	background: #25212B;
+	padding: 9px 25px 6px 40px;
+	float:left;
+	width: auto;
+	border-right:1px solid #42432d;
+	text-decoration:none;
+	font:bold 1em/1em Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	text-shadow: 2px 3px 2px #f55;
+}
+#nav a:hover,
+#nav a:focus {
+	color:#fff;
+	background:#727454;
+}
+#home #nav-home a,
+#about #nav-about a,
+#offers #nav-offers a,
+#news #nav-news a,
+#reviews #nav-reviews a,
+#contact #nav-contact a {
+	background:#e35a00;
+	color:#fff;
+	text-shadow:none;
+}
+#home #nav-home a:hover,
+#about #nav-about a:hover,
+#offers #nav-offers a:hover,
+#news #nav-news a:hover,
+#reviews #nav-reviews a:hover,
+#contact #nav-contact a:hover {
+	background:#e35a00;
+}
+#nav a:active {
+	background:#e35a00;
+	color:#fff;
+}
+div.h1{
+	display: grid;
+	grid-area: span;
+	grid-column: span;
+	grid-row: span;
+}
+.h1, h1{
+	font-size: 103px;
+	font-family: 'frijole', cursive;
+	text-transform: uppercase;
+	color: antiquewhite;
+	word-wrap: break-word;
+	width: 1012px;
+	margin-top: -30px;
+	text-align: -webkit-left;
+}
+img{
+	width: 800px;
+	height: 500px;
+	align-items: flex-end;
+	margin-top: -6in;
+	margin-left: 13.6in;
+	z-index: 2;
+	border-radius: 9%;
+	background-color: gray;
+}
+.h2, h2{
+	font-family: 'flavors', cursive;
+	color: whitesmoke;
+	font-size: 35px;
+	word-wrap: break-word;
+	width: 1264px;
+	text-align: left;
+	margin-top: 64px;
+	margin-left: 5px;
+	text-align: left;
+	
+}
+.menu{
+	text-align: center;
+	font-size: larger;
+	font-family: inherit;
+	color: #fff;
+	margin-left: 560px;
+	border-radius: 100%;
+}
+button, .menu strong{
+	background: #FE881A;
+	border-radius: 100px;
+
+}
+button, .menu strong::after{
+	background: #f55;
+	color: wheat;
+	border-radius: 180px;
+}
+.select {
+	font-size: 40px;
+	text-align: center;
+	align-items: flex-start;
+	color: antiquewhite;
+	background-color: black;
+	float: inline-start;
+}
+button#placeOrder{
+	background-color: bottom;
+	margin-left: 200px;
+	margin-bottom: -34px;
+
+}
+button#orderMoreBtn{
+	background-color: bottom;
+	margin-left: 1in;
+}
+button#checkout{
+	background-color: bottom;
+	margin-left: 3in;
+	margin-top: -25px;
+
+}
+#location{
+	font-size: large;
+	color: #727454;
+	background-color: #fff;
+	flood-color: #FE881A;
+}
+#orderDetails{
+	color: #FE881A;
+	font-size: large;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 700;
+	font: icon;
+}
+h3{
+	margin-top: 20px;
+}
+.orderSummary{
+	float: left;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: whitesmoke;
+	height: 50vh;
+	width: 80vw;
+}
